@@ -1,18 +1,11 @@
 ------------------------------------------------------------------------------------------
-Gerber File Extension Report For: sm_Arm_Board.GBR   7/11/2017  1:54:56 PM
+Gerber File Extension Report For: sm_Arm_Board.GBR   8/2/2017  10:48:56 PM
 ------------------------------------------------------------------------------------------
 
 
 ------------------------------------------------------------------------------------------
 Layer Extension     Layer Description                      
 ------------------------------------------------------------------------------------------
-.GTL                Top Layer                               
-.GBL                Bottom Layer                            
-.GTO                Top Overlay                             
-.GTP                Top Paste                               
-.GTS                Top Solder                              
-.GBS                Bottom Solder                           
-.GBP                Bottom Paste                            
-.GBO                Bottom Overlay                          
-.GKO                Keep-Out Layer                          
+.GD1                Drill Drawing                           
+.GG1                Drill Guide                             
 ------------------------------------------------------------------------------------------

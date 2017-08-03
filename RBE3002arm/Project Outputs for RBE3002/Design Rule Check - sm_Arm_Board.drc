@@ -1,0 +1,174 @@
+Protel Design System Design Rule Check
+PCB File : C:\Users\Public\Documents\Altium\Projects\RBE3002\sm_Arm_Board.PcbDoc
+Date     : 8/1/2017
+Time     : 5:29:22 PM
+
+Processing Rule : Clearance Constraint (Gap=6mil) (All),(All)
+   Violation between Track (380mil,712mil)(380mil,1004mil)  Top Layer and 
+                     Track (347mil,871mil)(365mil,889mil)  Top Layer
+   Violation between Track (365mil,889mil)(365mil,1005mil)  Top Layer and 
+                     Track (380mil,712mil)(380mil,1004mil)  Top Layer
+   Violation between Track (223.441mil,943.559mil)(223.441mil,1009mil)  Top Layer and 
+                     Track (207.693mil,973.693mil)(207.693mil,1009mil)  Top Layer
+   Violation between Track (223.441mil,943.559mil)(223.441mil,1009mil)  Top Layer and 
+                     Track (194mil,960mil)(207.693mil,973.693mil)  Top Layer
+   Violation between Track (176.197mil,952.803mil)(176.197mil,1009mil)  Top Layer and 
+                     Track (160.449mil,974.449mil)(160.449mil,1009mil)  Top Layer
+   Violation between Track (132mil,946mil)(160.449mil,974.449mil)  Top Layer and 
+                     Track (176.197mil,952.803mil)(176.197mil,1009mil)  Top Layer
+   Violation between Track (397mil,912mil)(397mil,1006mil)  Top Layer and 
+                     Track (412mil,946mil)(412mil,1006mil)  Top Layer
+   Violation between Track (318.433mil,927mil)(318.433mil,1006mil)  Top Layer and 
+                     Track (303mil,935mil)(303mil,1006mil)  Top Layer
+   Violation between Track (333mil,912mil)(333mil,1006mil)  Top Layer and 
+                     Track (318.433mil,927mil)(318.433mil,1006mil)  Top Layer
+   Violation between Track (365mil,889mil)(365mil,1005mil)  Top Layer and 
+                     Track (349.417mil,900mil)(349.417mil,1006mil)  Top Layer
+   Violation between Track (412mil,946mil)(472mil,886mil)  Top Layer and 
+                     Track (397mil,912mil)(397mil,1006mil)  Top Layer
+Rule Violations :11
+
+Processing Rule : Clearance Constraint (Gap=10mil) (InNamedPolygon('BotGND')),(All)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=10mil) (Max=18mil) (Preferred=10mil) (All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=12mil) ((InNet('MOTOR_GND') AND InNet('MOTOR_SIG') AND InNet('MOTOR_VCC'))),(All)
+Rule Violations :0
+
+Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+Rule Violations :0
+
+Processing Rule : Un-Routed Net Constraint ( (All) )
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=5mil) (InComponent('hdmi')),(All)
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=20mil) (Conductor Width=10mil) (Air Gap=10mil) (Entries=4) (All)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=10mil) (Max=18mil) (Preferred=15mil) ((InNet('MOTOR_GND') AND InNet('MOTOR_SIG') AND InNet('MOTOR_VCC')))
+Rule Violations :0
+
+Processing Rule : Height Constraint (Min=0mil) (Max=1000mil) (Prefered=500mil) (All)
+Rule Violations :0
+
+Processing Rule : Hole Size Constraint (Min=1mil) (Max=100mil) (All)
+Rule Violations :0
+
+Processing Rule : Hole To Hole Clearance (Gap=10mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Minimum Solder Mask Sliver (Gap=8mil) (All),(All)
+   Violation between Pad hdmi-hdmi_18(396.669mil,1009mil)  Top Layer and 
+                     Pad hdmi-hdmi_19(412.417mil,1009mil)  Top Layer
+   Violation between Pad hdmi-hdmi_17(380.921mil,1009mil)  Top Layer and 
+                     Pad hdmi-hdmi_18(396.669mil,1009mil)  Top Layer
+   Violation between Pad hdmi-hdmi_16(365.173mil,1009mil)  Top Layer and 
+                     Pad hdmi-hdmi_17(380.921mil,1009mil)  Top Layer
+   Violation between Pad hdmi-hdmi_15(349.425mil,1009mil)  Top Layer and 
+                     Pad hdmi-hdmi_16(365.173mil,1009mil)  Top Layer
+   Violation between Pad hdmi-hdmi_14(333.677mil,1009mil)  Top Layer and 
+                     Pad hdmi-hdmi_15(349.425mil,1009mil)  Top Layer
+   Violation between Pad hdmi-hdmi_13(317.929mil,1009mil)  Top Layer and 
+                     Pad hdmi-hdmi_14(333.677mil,1009mil)  Top Layer
+   Violation between Pad hdmi-hdmi_12(302.181mil,1009mil)  Top Layer and 
+                     Pad hdmi-hdmi_13(317.929mil,1009mil)  Top Layer
+   Violation between Pad hdmi-hdmi_11(286.433mil,1009mil)  Top Layer and 
+                     Pad hdmi-hdmi_12(302.181mil,1009mil)  Top Layer
+   Violation between Pad hdmi-hdmi_10(270.685mil,1009mil)  Top Layer and 
+                     Pad hdmi-hdmi_11(286.433mil,1009mil)  Top Layer
+   Violation between Pad hdmi-hdmi_9(254.937mil,1009mil)  Top Layer and 
+                     Pad hdmi-hdmi_10(270.685mil,1009mil)  Top Layer
+   Violation between Pad hdmi-hdmi_8(239.189mil,1009mil)  Top Layer and 
+                     Pad hdmi-hdmi_9(254.937mil,1009mil)  Top Layer
+   Violation between Pad hdmi-hdmi_7(223.441mil,1009mil)  Top Layer and 
+                     Pad hdmi-hdmi_8(239.189mil,1009mil)  Top Layer
+   Violation between Pad hdmi-hdmi_6(207.693mil,1009mil)  Top Layer and 
+                     Pad hdmi-hdmi_7(223.441mil,1009mil)  Top Layer
+   Violation between Pad hdmi-hdmi_5(191.945mil,1009mil)  Top Layer and 
+                     Pad hdmi-hdmi_6(207.693mil,1009mil)  Top Layer
+   Violation between Pad hdmi-hdmi_4(176.197mil,1009mil)  Top Layer and 
+                     Pad hdmi-hdmi_5(191.945mil,1009mil)  Top Layer
+   Violation between Pad hdmi-hdmi_3(160.449mil,1009mil)  Top Layer and 
+                     Pad hdmi-hdmi_4(176.197mil,1009mil)  Top Layer
+   Violation between Pad hdmi-hdmi_2(144.701mil,1009mil)  Top Layer and 
+                     Pad hdmi-hdmi_3(160.449mil,1009mil)  Top Layer
+   Violation between Pad hdmi-hdmi_1(128.953mil,1009mil)  Top Layer and 
+                     Pad hdmi-hdmi_2(144.701mil,1009mil)  Top Layer
+   Violation between Pad C7-1(924mil,267.315mil)  Top Layer and 
+                     Pad C7-2(924mil,306.685mil)  Top Layer
+   Violation between Pad C6-1(276mil,284.685mil)  Top Layer and 
+                     Pad C6-2(276mil,245.315mil)  Top Layer
+   Violation between Pad C5-1(847.685mil,515mil)  Top Layer and 
+                     Pad C5-2(808.315mil,515mil)  Top Layer
+   Violation between Pad AS5050A-2(336mil,440.409mil)  Top Layer and 
+                     Pad AS5050A-1(336mil,466mil)  Top Layer
+   Violation between Pad AS5050A-3(336mil,414.819mil)  Top Layer and 
+                     Pad AS5050A-2(336mil,440.409mil)  Top Layer
+   Violation between Pad AS5050A-4(336mil,389.228mil)  Top Layer and 
+                     Pad AS5050A-3(336mil,414.819mil)  Top Layer
+   Violation between Pad AS5050A-6(399.976mil,350.842mil)  Top Layer and 
+                     Pad AS5050A-5(374.386mil,350.842mil)  Top Layer
+   Violation between Pad AS5050A-7(425.567mil,350.842mil)  Top Layer and 
+                     Pad AS5050A-6(399.976mil,350.842mil)  Top Layer
+   Violation between Pad AS5050A-8(451.158mil,350.842mil)  Top Layer and 
+                     Pad AS5050A-7(425.567mil,350.842mil)  Top Layer
+   Violation between Pad AS5050A-10(489.543mil,414.819mil)  Top Layer and 
+                     Pad AS5050A-9(489.543mil,389.228mil)  Top Layer
+   Violation between Pad AS5050A-11(489.543mil,440.409mil)  Top Layer and 
+                     Pad AS5050A-10(489.543mil,414.819mil)  Top Layer
+   Violation between Pad AS5050A-12(489.543mil,466mil)  Top Layer and 
+                     Pad AS5050A-11(489.543mil,440.409mil)  Top Layer
+   Violation between Pad AS5050A-14(425.567mil,504.386mil)  Top Layer and 
+                     Pad AS5050A-13(451.158mil,504.386mil)  Top Layer
+   Violation between Pad AS5050A-15(399.976mil,504.386mil)  Top Layer and 
+                     Pad AS5050A-14(425.567mil,504.386mil)  Top Layer
+   Violation between Pad AS5050A-16(374.386mil,504.386mil)  Top Layer and 
+                     Pad AS5050A-15(399.976mil,504.386mil)  Top Layer
+   Violation between Pad C3-2(594mil,411.685mil)  Top Layer and 
+                     Pad C3-1(594mil,372.315mil)  Top Layer
+   Violation between Pad C4-2(679mil,469.685mil)  Top Layer and 
+                     Pad C4-1(679mil,430.315mil)  Top Layer
+   Violation between Pad C2-2(369.685mil,634mil)  Top Layer and 
+                     Pad C2-1(330.315mil,634mil)  Top Layer
+Rule Violations :36
+
+Processing Rule : Silk To Solder Mask (Clearance=10mil) (IsPad),(All)
+   Violation between Track (870.126mil,470.78mil)(885.874mil,470.78mil)  Top Overlay and 
+                     Pad R4-2(907.528mil,457mil)  Top Layer
+   Violation between Track (870.126mil,443.221mil)(885.874mil,443.221mil)  Top Overlay and 
+                     Pad R4-2(907.528mil,457mil)  Top Layer
+   Violation between Track (870.126mil,470.78mil)(885.874mil,470.78mil)  Top Overlay and 
+                     Pad R4-1(848.472mil,457mil)  Top Layer
+   Violation between Track (870.126mil,443.221mil)(885.874mil,443.221mil)  Top Overlay and 
+                     Pad R4-1(848.472mil,457mil)  Top Layer
+   Violation between Text "R4" (874mil,492mil)  Top Overlay and 
+                     Pad C5-1(847.685mil,515mil)  Top Layer
+   Violation between Track (634.126mil,610.779mil)(649.874mil,610.779mil)  Top Overlay and 
+                     Pad R3-1(671.528mil,597mil)  Top Layer
+   Violation between Track (634.126mil,583.22mil)(649.874mil,583.22mil)  Top Overlay and 
+                     Pad R3-1(671.528mil,597mil)  Top Layer
+   Violation between Track (634.126mil,610.779mil)(649.874mil,610.779mil)  Top Overlay and 
+                     Pad R3-2(612.472mil,597mil)  Top Layer
+   Violation between Track (634.126mil,583.22mil)(649.874mil,583.22mil)  Top Overlay and 
+                     Pad R3-2(612.472mil,597mil)  Top Layer
+Rule Violations :9
+
+Processing Rule : Silk to Silk (Clearance=10mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Silk primitive without silk layer
+Rule Violations :0
+
+Processing Rule : Net Antennae (Tolerance=0mil) (All)
+Rule Violations :0
+
+Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
+Rule Violations :0
+
+
+Violations Detected : 56
+Time Elapsed        : 00:00:03
